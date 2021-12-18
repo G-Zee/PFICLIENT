@@ -1,0 +1,149 @@
+body {
+    background-color: white;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+}
+.header-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+header-container
+div2 {
+    border:1px solid black;
+}
+.header-news-container{
+    /* height: 50px; */
+    background-color: rgb(60, 122, 255);
+}
+.header-news-container div {
+    font-size: large;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 0px;
+    color: black;
+}
+
+/*
+.news-list-scroll-containter {
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:white;
+   
+}
+.news-list-container {
+    padding: 12px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fill, 260px);
+}
+*/
+.news-list-scroll-containter {
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:white;
+   
+}
+.news-list-container {
+    background-color:white;
+}
+
+
+
+
+
+.array-container {
+    border:1px solid black;
+}
+
+.columns-layout {
+    display: grid; grid-template-columns: 5% 5% 25% 25% 25% 5% 5%;
+}
+
+
+
+
+.header-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.header-photos-container{
+    background-color: rgb(60, 122, 255);
+}
+.header-photos-container div {
+    font-size: large;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 0px;
+    color: white;
+}
+.title-container {
+    display:grid; 
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: 90px;
+}
+
+
+
+
+.news-container {
+    padding-top: 150px;
+}
+
+.news-container div{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    
+}
+
+.news-autor-name {
+    position: absolute;
+    width: 134px;
+    height: 42px;
+    left: 295px;
+    top: 136px;
+}
+
+.news-date {
+    position: absolute;
+    width: 134px;
+    height: 42px;
+    left: 295px;
+    top: 187px;
+}
+
+.news-title {
+    position: absolute;
+    width: 541px;
+    height: 42px;
+    left: 449px;
+    top: 136px;
+}
+
+.news-image {
+    position: absolute;
+    width: 541px;
+    height: 331px;
+    left: 449px;
+    top: 187px;
+}
+
+.news-text {
+    position: absolute;
+    width: 541px;
+    height: 331px;
+    left: 449px;
+    top: 527px;
+}
+
+.news-edit {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 1003px;
+    top: 135px;
+}

@@ -1,0 +1,264 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+/*
+.container div {
+    border: 1px black;
+}
+*/
+.header {
+    grid-column: 2 / 14;
+    grid-row: 1 / span 1;
+    
+    height: 5vh;
+
+}
+
+
+.refresh {
+    height: 7vh;
+    grid-row: 1 / span 1;
+    grid-column: 2 / 2;
+    
+}
+
+.create {
+    grid-row: 1 / span 1;
+    grid-column: 3;
+    
+}
+
+
+.create span {
+    display: block;
+    margin-top: 0.2em;
+    margin-left: 0.4em;
+    margin-right: auto;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.search-list {
+    grid-row: 1 / span 1;
+    grid-column: 4/ span 3;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.search-list select {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+
+}
+
+
+
+.search-bar {
+    grid-row: 1 / span 1;
+    grid-column: 7 / span 3;
+    
+
+}
+
+
+.search-bar input {
+    margin-top: 9%;
+}
+
+
+.user-picture {
+    grid-row: 1 / span 1;
+    grid-column: 10;
+    margin-right: 15%;
+    
+}
+.avatarContainer{
+    width: 110%;
+    height: 5%;
+    border-radius: 25px;
+}
+
+.user-name {
+    grid-row: 1 / span 1;
+    grid-column: 11;
+    margin-top: 2.5vh;
+    font-weight: bold;
+    
+}
+
+.deconnexion {
+    grid-row: 1 / span 1;
+    grid-column: 12;
+    
+}
+
+
+
+.compte {
+    grid-row: 1 / span 1;
+    grid-column: 13;
+    
+}
+
+
+
+.news-container {
+    grid-column: 2 / 14;
+    grid-row: 2 / 19;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:white;
+}
+
+.news-grid {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    background-color:rgb(173, 173, 173);
+}
+
+.title {
+    grid-column: 4 / span 9;
+    background-color: white;
+    grid-row: 2 / span 1;
+    border-top: 1px  solid black;
+    border-right: 1px  solid black;
+    border-bottom: 3px  solid black;
+    height: 25px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
+
+.deleteNews {
+    grid-column: 13 / span 1;
+    grid-row: 2 / span 1;
+    
+    height: 25px;
+    text-align: center;
+}
+
+.editNews {
+    grid-column: 12 / span 1;
+    grid-row: 2 / span 1;
+    
+    height: 25px;
+    text-align: center;
+}
+
+
+.date {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 1;
+    background-color: white;
+    border-bottom: 3px  solid black;
+    border-left: 2px  solid black;
+    border-right: 1px  solid black;
+    text-align: center;
+}
+
+.autor {
+    grid-column: 2 / span 2;
+    background-color: white;
+    grid-row: 2 / span 1;
+    border-top: 2px  solid black;
+    border-left: 2px  solid black;
+    text-align: center;
+}
+.picAuthor {
+    grid-column: 1 / span 1;
+    background-color: white;
+    grid-row: 2 / span 2;
+    border-radius: 25px;
+    text-align: center;
+    border: black solid 1px;
+}
+
+.pic {
+    
+    grid-column: 4 / span 9;
+    grid-row: 3 / span 8;
+    width: auto;
+    height: auto;
+    /*centers img*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text {
+    grid-column: 4 / span 9;
+    
+    background-color: white;
+    grid-row: 11 / span 8;
+    border: 2px  solid black;
+    border-radius: 10px;
+    padding: 5%;
+    
+    
+}
+
+.edit {
+    grid-column: 13 / span 1;
+    grid-row: 2 / span 2;
+    
+}
+
+.thumbnail{
+    width:260px;
+    height:170px;
+    margin-top: 10%;
+    border:4px solid transparent;
+    border-radius: 15px;
+}
+
+.icon {
+    font-size: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+.refresh img {
+    height: 60px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.deconnexion span {
+    font-size: 40px;
+    height: 60px;
+    cursor: pointer;
+    display: block;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.imageDownloader {
+    width:100%;
+}
+
+.UploadedImage {
+    width:100%;
+}
+
+
